@@ -1,10 +1,3 @@
----
-title: Analyse fonctionnelle projet MI7 Groupe B
-date: 2026-11-19
-subtitle: UL1IN021
-author: Ana DESMARS, Adam LATROUS, Alban SEGRETAIN, Nikolaï SCHLEICHER
----
-
 **Casier connecté** 
 
 **Introduction** 
@@ -22,11 +15,11 @@ Le dispositif sera composé de :
 * LED Rouge   
 * LED Verte 
 
-![Schéma Casier](https://github.com/Nexooow/S1-Projet-Info/blob/ebdf5fc869d052960310853aa8177371bc288b1b/docs/Sch%C3%A9ma%20g%C3%A9n%C3%A9ral%20du%20projet.png)
+![Schéma Casier](https://github.com/Nexooow/S1-Projet-Info/blob/9f7856a0d29106e658ff11db846ea910dd88d124/docs/Sch%C3%A9ma%20g%C3%A9n%C3%A9ral%20du%20projet.png)
 
 Figure 1\. Schéma général du projet
 
-La figure 1 présente le dispositif du casier connecté. Le système repose sur un Raspberry Pi relié à un capteur NFC, à un moteur actionnant l’ouverture et la fermeture de la porte du casier, à un écran et à des LED rouge et verte pour indiquer l’état d’accès. Les données de réservation, d'utilisateurs et d'accès sont enregistrées et consultées dans une base de données, tandis qu'un site web permet aux étudiants de réserver ou d'annuler un créneau et à l'administrateur de consulter ou supprimer des réservations. L'humain intervient à la fois via le site web (pour la gestion des comptes et des créneaux) et physiquement auprès du casier en passant sa carte ou son badge NFC devant le capteur. 
+La figure 1 présente le dispositif du casier connecté. Le système repose sur un Raspberry Pi relié à un capteur NFC, à un moteur actionnant l’ouverture et la fermeture de la porte du casier, à un écran et à des LED rouge et verte pour indiquer l’état d’accès. Les données de réservation, d'utilisateurs et d'accès sont enregistrées et consultées dans une base de données, tandis qu'un site web permet aux étudiants de réserver ou d'annuler un créneau et à l'administrateur de consulter ou supprimer des réservations. Sur le schéma, le pictogramme “Wi-Fi” symbolise simplement la connexion au réseau local permettant au Raspberry Pi de communiquer avec la base de données et le site web (sans qu’il s’agisse nécessairement d’une liaison sans fil ni d’un accès internet). L'humain intervient à la fois via le site web (pour la gestion des comptes et des créneaux) et physiquement auprès du casier en passant sa carte ou son badge NFC devant le capteur.  
 
 **Scénarios d'usages** 
 
