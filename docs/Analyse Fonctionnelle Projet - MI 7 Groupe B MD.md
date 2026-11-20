@@ -1,4 +1,11 @@
-**Casier connecté** 
+﻿---
+title: Analyse fonctionnelle projet MI7 Groupe B
+date: 2026-11-19
+subtitle: UL1IN021
+author: Ana DESMARS, Adam LATROUS, Alban SEGRETAIN, Nikolaï SCHLEICHER
+---
+
+# Casier connecté 
 
 **Introduction** 
 
